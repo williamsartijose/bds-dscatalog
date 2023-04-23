@@ -1,6 +1,6 @@
 import './styles.css';
-import '@popperjs/core'
-import 'bootstrap/js/src/collapse'
+import '@popperjs/core';
+import 'bootstrap/js/src/collapse';
 
 const Navbar = () => {
   return (
@@ -16,8 +16,8 @@ const Navbar = () => {
           data-bs-target="#dscatalog-navbar"
           aria-controls="dscatalog-navbar"
           aria-expanded="false"
-          aria-label="Toggle navigation">
-        
+          aria-label="Toggle navigation"
+        >
           <span className="navbar-toggler-icon"></span>
         </button>
 
@@ -38,7 +38,6 @@ const Navbar = () => {
         </div>
       </div>
     </nav>
-    
   );
 };
 
