@@ -1,11 +1,11 @@
 import Navbar from 'components/Navbar';
-import './styles.css';
+import ProductCard from 'components/ProductCard';
 const Catalog = () => {
   return (
     <>
       <Navbar />
       <div className="container my-4">
-        <h1>Tela de Catalog</h1>
+        <ProductCard/>
       </div>
     </>
   );
