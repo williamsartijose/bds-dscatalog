@@ -1,0 +1,9 @@
+@media (min-width: 576px) {
+    .container {
+        padding: 6px 2px 0px 2px;
+    }
+}
+
+body {
+    background-color: #ffff;
+}
